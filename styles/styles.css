@@ -1,0 +1,258 @@
+/* How to override the default Bootstrap navbar */
+
+/*.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}*/
+
+
+
+body{
+	font-color: #5b5b5b;
+	font-family: "Open Sans";
+}
+
+.shadow {
+  -moz-box-shadow:    2px 2px 3px 4px #ccc;
+  -webkit-box-shadow: 2px 2px 3px 4px #ccc;
+  box-shadow:         2px 2px 3px 4px #ccc;
+}
+
+.wrapper p{
+	padding-top: 6em;
+	padding-left: 40px;
+	padding-right: 40px;
+	/*text-align: left;*/
+	float: right;
+	text-align: justify;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 1px;
+
+}
+.wrapper img{
+	padding-top: 70px;
+}
+
+.bottom-wrapper{
+	padding-top: 2em;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: right;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 1px;
+
+}
+.killer-feature{
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+
+.spacer{
+	height: 8em;
+}
+
+
+.feature i{
+	font-size: 50px;
+	margin-bottom: 1em;
+}
+
+.feature strong{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.feature{
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+h1{
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 40px;
+	margin-top: 2em;
+}
+
+h2{
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+}
+
+/*.test {
+	margin-bottom: 2em;
+}*/
+
+.down-wrapper p{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 100px;
+	/*text-align: left;*/
+	float: left;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.down-wrapper img{
+	margin-top: 1em;
+	padding-right: 40px;
+}
+
+.down-wrapper h1{
+	text-align: left;
+	font-family: "Open Sans";
+	font-size: 40px;
+	margin-top: 2em;
+}
+
+.text-left{
+	padding-left: 40px;
+
+}
+
+#schema{
+	padding-right: 50px;
+}
+
+
+form {
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+input[type="submit"] {
+	border: none; 
+	background-color: #25cdf4; 
+	color: white; 
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 1em;
+	border-radius: .3em;
+	width: 10%;
+}
+
+input[type="submit"]:hover {
+	background-color: #222;
+	transition: .5s;
+}
+
+input[type="email"] {
+	border: none;
+	background-color: #ddd;
+	padding: 1em;
+	border-radius: .5em;
+	width: 25%;
+}
+
+input[type="email"]:focus:invalid {
+	outline: none;
+	border: 1px solid #c0392b;
+	box-shadow: 0 0 5px #e74c3c;
+	transition: all .3s ease-in-out;
+
+}
+
+input[type="email"]:focus:valid {
+	outline: none;
+	border: 1px solid #27ae60;
+	box-shadow: 0 0 5px #2ecc71;
+	transition: all .3s ease-in-out;
+
+}
+
+.countdown{
+	margin-top: 6em;
+}
+
+.countdown a{
+  display: block;
+  margin-bottom: 1em;
+  color: #75d392;
+  text-decoration: none;
+}
+.countdown a:last-of-type {
+  font-size: 0.9em;
+}
+.countdown a:hover {
+  text-decoration: underline;
+}
+.countdown ul {
+  margin-bottom: 4em;
+}
+.chart {
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  margin: 0 10px;
+  vertical-align: top;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 22px;
+}
+.chart span {
+  display: block;
+  font-size: 2em;
+  font-weight: normal;
+}
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#footer{
+	background-color: #75d392;
+	height: 80px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+#footer p{
+	font-size: 20px;
+}
+#footer a{
+	font-size: 24px;
+	color: #5b5b5B;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#footer a:hover{
+	color: #aaaaaa;
+}
+
+
+
+
