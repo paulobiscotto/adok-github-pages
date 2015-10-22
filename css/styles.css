@@ -113,7 +113,7 @@ h2{
 
 .down-wrapper p{
 	padding-top: 40px;
-	padding-left: 40px;
+	padding-left: 50px;
 	padding-right: 40px;
 	padding-bottom: 100px;
 	/*text-align: left;*/
@@ -208,7 +208,14 @@ input[type="email"]:focus:valid {
 }
 
 
-
+hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  border: 0;
+}
 
 
 #footer{
