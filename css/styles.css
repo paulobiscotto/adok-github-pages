@@ -168,7 +168,7 @@ body{
 .effect6:before, .effect6:after
 {
 	content:"";
-    position:absolute;
+    position:relative;
     z-index:-1;
     -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
     -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
@@ -220,6 +220,12 @@ body{
 	letter-spacing: 1px;
 
 }
+
+.bottom-wrapper p{
+	margin-left: 60px;
+
+}
+
 .killer-feature{
 	font-size: 30px;
 	padding-top: 50px;
@@ -295,7 +301,6 @@ h2{
 }
 
 #schema{
-	padding-right: 50px;
 	text-align: center;
 }
 
