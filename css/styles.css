@@ -301,7 +301,10 @@ h2{
 }
 
 #schema{
-	text-align: center;
+	text-align:center;
+	 width: 100%;
+    height: auto;
+
 }
 
 
