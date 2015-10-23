@@ -356,7 +356,7 @@ input[type="email"]:focus:valid {
 .countdown ul {
   top:50%;
   left: 50%;
-  width:400px;
+  width:200px;
   margin-top:-25px;
   margin-left:-350px;
   list-style:none;
@@ -370,6 +370,7 @@ input[type="email"]:focus:valid {
       font-size: 42px;
       font-weight:bold;
 }
+
 
 
 hr.soften {
