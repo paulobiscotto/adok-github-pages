@@ -116,13 +116,24 @@ function() {
 });
 
 
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
+// $(function() {
+//   $('a[href*=#]').on('click', function(e) {
+//     e.preventDefault();
+//     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+//   });
+// });
 
+// $(window).scroll(function(){
+//   var position = $(this).scrollTop();
+//   $('.imgHolder img').css({top:position/2});
+// });
+
+// $('.header').on('click','',function(){
+//     var top = $('section').first().position().top;
+//    $("html, body").animate({
+//                             scrollTop: top}, {easing: "swing", duration: 800
+//                            });
+// });
   
 
 
