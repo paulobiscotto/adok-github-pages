@@ -177,13 +177,11 @@ body{
     top:50%;
     bottom:0;
     left:10px;
-    right:10px;
     -moz-border-radius:100px / 10px;
     border-radius:100px / 10px;
 }
 .effect6:after
 {
-	right:10px;
     left:auto;
     -webkit-transform:skew(8deg) rotate(3deg);
        -moz-transform:skew(8deg) rotate(3deg);
@@ -193,9 +191,14 @@ body{
 }
 
 
+/*to avoid blank space at the right end of the page!!!*/
+.row{
+	margin: 0 auto;
+}
 
 
 .wrapper p{
+	margin: 0 auto;
 	padding-top: 6em;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -215,7 +218,7 @@ body{
 	padding-top: 2em;
 	padding-left: 40px;
 	padding-right: 40px;
-	float: right;
+	/*float: right;*/
 	font-size: 24px;
 	font-weight: 400;
 	letter-spacing: 1px;
