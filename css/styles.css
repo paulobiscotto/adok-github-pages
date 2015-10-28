@@ -315,6 +315,7 @@ h2{
 form {
 	text-align: center;
 	padding-bottom: 2em;
+	width: auto;
 }
 
 input[type="submit"] {
@@ -324,7 +325,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	font-weight: bold;
 	padding: 1em;
-	border-radius: .3em;
+	border-radius: .8em;
 	width: 10%;
 }
 
@@ -336,8 +337,8 @@ input[type="submit"]:hover {
 input[type="email"] {
 	border: none;
 	background-color: #ddd;
-	padding: 1em;
-	border-radius: .5em;
+	padding: 1.7em;
+	border-radius: .8em;
 	width: 25%;
 }
 
