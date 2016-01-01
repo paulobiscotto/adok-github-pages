@@ -77,7 +77,7 @@ section h1 {
 
 
 #section03 a {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 #section03 a span {
 	position: absolute;
@@ -279,6 +279,26 @@ h2{
 	text-align: center;
 }
 
+h4{
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	color: #75d392;
+
+}
+/*.href {
+	color: #75d392;
+}
+h4:hover {
+	color: #aaaaaa;
+}*/
+a{
+	color: #5b5b5b;
+}
+a:hover{
+	color: #aaaaaa;
+}
+
 /*.test {
 	margin-bottom: 2em;
 }*/
@@ -416,6 +436,10 @@ hr.soften {
 #footer a:hover{
 	color: #aaaaaa;
 }
+
+
+/*The scroll down button 2*/
+
 
 
 /*here goes the parallax effect*/
