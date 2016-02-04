@@ -51,7 +51,7 @@ section h1 {
 	z-index: 2;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	color: #0dc27a;
+	color: #39b1ab;
 	font : normal 300 64px/1 'Roboto', sans-serif;
 	text-align: center;
 	white-space: nowrap;
@@ -65,7 +65,7 @@ section h1 {
 	display: inline-block;
 	-webkit-transform: translate(0, -50%);
 	transform: translate(0, -50%);
-	color: #0dc27a;
+	color: #39b1ab;
 	font : normal 400 20px/1 'Roboto', sans-serif;
 	letter-spacing: .1em;
 	text-decoration: none;
@@ -86,7 +86,7 @@ section h1 {
 	width: 46px;
 	height: 46px;
 	margin-left: -23px;
-	border: 1px solid #0dc27a;
+	border: 1px solid #39b1ab;
 	border-radius: 100%;
 	box-sizing: border-box;
 }
@@ -98,8 +98,8 @@ section h1 {
 	width: 16px;
 	height: 16px;
 	margin: -12px 0 0 -8px;
-	border-left: 1px solid #0dc27a;
-	border-bottom: 1px solid #0dc27a;
+	border-left: 1px solid #39b1ab;
+	border-bottom: 1px solid #39b1ab;
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	box-sizing: border-box;
@@ -112,7 +112,7 @@ section h1 {
 	content: '';
 	width: 44px;
 	height: 44px;
-	box-shadow: 0 0 0 0 #0dc27a;
+	box-shadow: 0 0 0 0 #39b1ab;
 	border-radius: 100%;
 	opacity: 0;
 	-webkit-animation: sdb03 3s infinite;
@@ -283,11 +283,11 @@ h4{
 	font-weight: 400;
 	font-size: 24px;
 	text-align: center;
-	color: #75d392;
+	color: #39b1ab;
 
 }
 /*.href {
-	color: #75d392;
+	color: #39b1ab;
 }
 h4:hover {
 	color: #aaaaaa;
@@ -347,7 +347,7 @@ form {
 
 input[type="submit"] {
 	border: none; 
-	background-color: #25cdf4; 
+	background-color: #97d1ab; 
 	color: white; 
 	text-transform: uppercase;
 	font-weight: bold;
@@ -357,7 +357,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	background-color: #75d392;
+	background-color: #39b1ab;
 	transition: .5s;
 }
 
@@ -416,7 +416,7 @@ hr.soften {
 
 
 #footer{
-	background-color: #75d392;
+	background-color: #39b1ab;
 	height: 80px;
 	padding-top: 15px;
 	padding-left: 10px;
