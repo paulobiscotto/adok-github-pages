@@ -404,7 +404,24 @@ input[type="email"]:focus:valid {
       font-weight:bold;
 }
 
+.content .card.first {
+  margin-top: -80px;
+}
 
+
+
+.content {
+	border-top: 20px solid #39b1ab;
+	position: relative;
+	background: #FCFCFC;
+	/*border: 2px;*/
+	clear:both;
+	margin: 0 auto 75px auto;
+	padding:50px;
+  	width: 900px;
+  	box-shadow: 0 2px 4px rgba(100,100,100,.1);
+
+}
 
 hr.soften {
   height: 1px;
