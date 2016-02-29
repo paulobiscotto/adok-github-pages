@@ -418,7 +418,7 @@ input[type="email"]:focus:valid {
 	clear:both;
 	margin: 0 auto 75px auto;
 	padding:50px;
-  	width: 900px;
+  	max-width: 900px;
   	box-shadow: 0 2px 4px rgba(100,100,100,.1);
 
 }
